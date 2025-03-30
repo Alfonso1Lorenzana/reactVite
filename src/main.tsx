@@ -1,10 +1,39 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import ReactDOM from 'react-dom/client'
+// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import App from './App';
+import Error from './pages/Error';
+import Contact from './pages/Contact';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <Error />,
+    children: [
+      {
+        index: true,
+        element: <AboutMe />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <RouterProvider router={router} />
+);
+
