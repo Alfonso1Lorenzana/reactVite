@@ -14,7 +14,7 @@ function Header() {
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <a href="#">Resume</a>
+          <a href="/resume.txt">Resume</a>
         </li>       
       </ul>
 
