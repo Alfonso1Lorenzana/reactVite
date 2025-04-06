@@ -11,7 +11,10 @@ function Header() {
           <a href="/portfolio">Portfolio</a>
         </li>
         <li>
+          //let rows = string;
           <a href="/contact">Contact</a>
+          <label htmlFor="name">Name:</label><br></br>
+          <textarea id="name"></textarea>
         </li>
         <li>
           <a href="/resume.txt">Resume</a>
