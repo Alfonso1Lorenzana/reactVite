@@ -16,7 +16,7 @@ function Header() {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/resume.txt">Resume</Link>
+          <a href="/resume.txt">Resume</a>
         </li>       
       </ul>
 
