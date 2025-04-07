@@ -1,1 +1,20 @@
-<b>Alfonso Lorenzana</b>
+Alfonso Lorenzana
+
+OBJECTIVE: Full-time or part-time position utilizing my programming and writing skills
+
+PROFILE:
+
+- Good working knowledge of scripting and mark-up languages used for web sites
+- Excellent interpersonal and communicating skills
+- Work well independently as a team member
+
+RELEVANT SKILLS:
+
+Programming Languages / Environments
+- Perl/PHP - Python/Shell - HTML/XHTML/XML
+- Java/ JavaScript - JSP/CSS - C/C++/SQL
+
+EDUCATION:
+
+H.B.Sc. Computer Science
+High School Graduate
