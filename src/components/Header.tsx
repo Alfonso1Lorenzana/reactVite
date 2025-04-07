@@ -8,10 +8,10 @@ function Header() {
           <a href="/">About Me</a>
         </li>
         <li>
-          <a href="/Portfolio.tsx">Portfolio</a>
+          <a href="/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/Contact.tsx">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
         <li>
           <a href="/resume.txt">Resume</a>
