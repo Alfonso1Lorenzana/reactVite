@@ -6,6 +6,10 @@ function Contact() {
 
         <>
         <h1>Contact</h1>
+        <label htmlFor="name">Name:</label><br></br>
+        <textarea id="name"></textarea>
+        <label htmlFor="email">Email address:</label>
+        <textarea id="email"></textarea>
         </>
 
     )

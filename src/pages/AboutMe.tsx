@@ -1,5 +1,6 @@
 import photo from "../assets/alfonso1.jpeg";
 
+// This folder, 
 function AboutMe() {
 
   return (
